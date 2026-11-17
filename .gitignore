@@ -41,3 +41,25 @@ example
 # generated native folders
 /ios
 /android
+
+
+node_modules/
+.expo/
+dist/
+web-build/
+
+.env
+.env.*
+!.env.example
+
+credentials.json
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+
+*.apk
+*.aab
+npm-debug.*
